@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.middleBox{
+    display: inline;
+    text-align: center;
+    font-size: 23px;
+}
+.container{
+    margin: 10%;
+}
+.middleBox h1{
+    color: rgb(0, 183, 255); 
+    text-shadow: 2px 2px 50px blue;
+}
+.para{
+    color: rgb(255, 196, 0);
+    text-shadow: 2px 2px 50px blue;
+}
+label{
+    color: rgb(0, 183, 255);
+}
+
+input{
+    background-color: burlywood;
+    border: 2px solid black;
+    height: 20px;
+}
+.guessSubmit{
+    background-color:aquamarine;
+    color: black;
+    height: 25px;
+}
+.guessSubmit:hover{
+    background-color: rgb(0, 183, 255);
+    border: 2px solid white;
+}
+.guessField{
+    background-color:deepskyblue;
+    outline: none;
+}
+.reset{
+    background-color: aquamarine;
+    height: 25px;
+}
+.reset:hover{
+    background-color: rgb(0, 183, 255);
+    border: 2px solid white;
+}
+#display{
+    color:springgreen;
+    text-shadow: 2px 2px 30px green;
+}
