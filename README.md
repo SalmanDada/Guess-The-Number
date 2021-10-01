@@ -1,5 +1,7 @@
 # Guess-The-Number
 
 
-## Tech-Stacks Used:
-HTML, CSS, JAVASCRIPT
+## Technical Stacks Used:
+* HTML, CSS, JAVASCRIPT
+## Hosted Link(Netlify):
+https://dazzling-wescoff-a7e723.netlify.app
