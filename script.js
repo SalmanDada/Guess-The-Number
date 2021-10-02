@@ -1,18 +1,18 @@
-var y = Math.floor(Math.random() *20 + 1);
+var y = Math.floor(Math.random() *10 + 1);
 document.getElementById("display").innerHTML = "You are ready to play👍"
 
 var guess = 1;
 document.getElementById("resetnum").onclick = function(){
     location.reload();
     x = 0;
-    var y = Math.floor(Math.random() *20 + 1)
+    var y = Math.floor(Math.random() *10 + 1)
 }
 
 document.getElementById("submitguess").onclick = function(){
     var x = document.getElementById("guessField").value;
     if(Number.isInteger(Number(x)) == true)
     {
-        if(x>0 && x<=20)
+        if(x>0 && x<=10)
         {
             if(x == y)
             {
